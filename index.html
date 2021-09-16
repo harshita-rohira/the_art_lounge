@@ -1,15 +1,306 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>
-        THE ART LOUNGE
-    </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
+    <meta charset="utf-8">
+    <title>Harshita Rohira</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <style type="text/css">
+        .primary-background {
+
+            background: rgba(16, 128, 234, 0.7) !important;
+
+        }
+    </style>
 </head>
+
 <body>
-    <h1>This is the sample gallery.</h1>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-0">
+        <div class="logo">
+            <a href="index.html">THE ART LOUNGE</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active px-2">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#collection">Collection</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="banner">
+        <div class="video-cont">
+            <video autoplay muted loop>
+                 <source src="./Media/production ID_5091105.mp4" type="video/mp4" /> 
+            </video>
+            <div class="caption">
+                <div class="overlay">
+                    <div class="banner_text">
+                        <div class="padd">
+                            <h1 class="banner_title">Discover Artworks</h1>
+                            <p class="banner_desc">
+                                Explore our latest collections of original artworks & paintings. Discover perfect original paintings, artworks of various Indian artists online. Easily buy and sell original artwork including contemporary paintings.
+                            </p>
+                            <p>
+                                <button class="banner_btn">Start Browsing</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner end  -->
+        <h1 class="collection_heading mt-5" id="collection">Collection</h1>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="card mb-3 bs cp">
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-4">
+                            <img src="./Media/oil_painting_1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Oil Painting</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod
+                                    officia similique </p>
+                                    <a href="#" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 bs cp" >
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-4">
+                            <img src="./Media/pencil_sketches_1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Pencil Sketches</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod
+                                    officia similique </p>
+                                    <a href="#" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card mb-3 bs cp" >
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-3">
+                            <img src="./Media/soft_pastels_1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Soft Pastels</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod
+                                    officia similique </p>
+                                    <a href="#" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 bs cp" >
+                    <div class="row g-0">
+                        <div class="col-md-4 mt-5">
+                            <img src="./Media/pencil_sketch1_1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Pencil Color Drawings</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit ipsum cupiditate, quod
+                                    officia similique </p>
+                                <a href="#" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            </div>
+
+            
+    
+            <h1 class="gallery_heading mb-5 mt-5" id="gallery">Explore By Style</h1>
+            
+            <div class="portfolio" id="gallery">
+                <div class="cont portfolio_cont">
+                    <div class="project project_1">
+                        <div class="project_title">
+                            <h1>Portraits</h1>
+                        </div>
+                    </div>
+                    <div class="project project_2">
+                        <div class="project_title">
+                            <h1>Landscape</h1>
+                        </div>
+                    </div>
+                    <div class="project project_3">
+                        <div class="project_title">
+                            <h1>Abstract</h1>
+                        </div>
+                    </div>
+                    <div class="project project_4">
+                        <div class="project_title">
+                            <h1>Nature</h1>
+                        </div>
+                    </div>
+                    <div class="project project_5">
+                        <div class="project_title">
+                            <h1>Old Style</h1>
+                        </div>
+                    </div>
+                    <div class="project project_6">
+                        <div class="project_title">
+                            <h1>Pop Culture</h1>
+                        </div>
+                    </div>
+                    <div class="project project_7">
+                        <div class="project_title">
+                            <h1>Wildlife</h1>
+                        </div>
+                    </div>
+                    <div class="project project_8">
+                        <div class="project_title">
+                            <h1>Village life</h1>
+                        </div>
+                    </div>
+            </div>
+
+        </div>  
+
+
+        <!-- about start -->
+        <div class="about" id="about">
+                <h1>About Us</h1>
+                <div class="cont about_cont">
+                    <span class="start_text">Lorem</span> ipsum dolor, sit amet consectetur adipisicing elit. Sequi a
+                    deleniti
+                    aperiam neque assumenda nisi animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia
+                    mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi a deleniti aperiam neque assumenda
+                    nisi
+                    animi nesciunt soluta nihil, quaerat vel maxime, cum quae. In nemo quia mollitia ipsa expedita.
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="container-fluid bg-dark text-white" id="contact">
+                <div class="card mx-5 bg-dark text-white">
+                    <div class="row mb-4 ">
+                        <div class="col-md-4 col-sm-11 col-xs-11">
+                            <div class="footer-text pull-left mt-3">
+                                <div class="d-flex">
+                                    <h1 style="color: white;">THE ART LOUNGE</h1>
+                                </div>
+                                <p class="card-text">Discover perfect original paintings, artworks of various Indian artists online. 
+                                    Easily buy and sell original artwork including contemporary paintings.</p>
+                                <div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"></i> <i
+                                        class="fa fa-instagram fa-lg"></i> <i class="fa fa-twitter fa-lg"></i> <i
+                                        class="fa fa-linkedin-square fa-lg"></i> <i class="fa fa-facebook"></i> </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-4">
+                            
+                
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-4 mt-3">
+                            <h5 class="heading">Collection</h5>
+                            <ul>
+                                <li>Oil Painting</li>
+                                <li>Pencil Sketches</li>
+                                <li>Soft Pastels</li>
+                                <li>Pencil Color Drawings</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-4 mt-3">
+                            <h5 class="heading">Gallery</h5>
+                            <ul class="card-text">
+                                <li>Portraits</li>
+                                <li>Landscape</li>
+                                <li>Adbstract</li>
+                                <li>Pop Culture</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="divider mb-4"> </div>
+                    <div class="row" style="font-size:15px;">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="pull-left">
+                                <p><i class="fa fa-copyright"></i> 2021 the_art _lounge</p>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="pull-right mr-2 d-flex policy">
+                                <div>Terms of Use</div>
+                                <div>Privacy Policy</div>
+                                <div>Cookie Policy</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
 </body>
+
 </html>
+

@@ -1,0 +1,327 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.cont {
+	width: 80%;
+	display: flex;
+
+}
+.card {
+    padding: 2% 7%;
+    color: #646771;
+    background-color: #16151a
+}
+.logo {
+	height: 60px;
+	width: 25%;
+	/* background-color: yellow; */
+	font-size: 35px;
+	font-family: 'Garamond', serif;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	line-height: 55px;
+}
+/*.nav-link{
+	font-size: larger;
+}*/
+
+ .navbar {
+   font-family: 'Lato', serif;
+   font-size: 20px;
+ }
+
+
+
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+
+.logo a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+.banner {
+	height: 105vh;
+	width: 100%;
+	background-color: whitesmoke;
+	background-size: cover;
+	
+
+}
+
+.video-cont {
+	height: 100%;
+	width: 100%;
+	overflow: hidden ;
+	position: relative;
+}
+
+.video-cont video {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.video-cont .caption {
+	z-index: 1;
+	position: relative;
+	text-align: center;
+	color: #dc0000;
+	padding: 10px;
+}
+
+.overlay {
+	height: 95vh;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+}
+
+.banner_text {
+	margin-top: 70px;
+	height: 350px;
+	width: 45%;
+	background-color: rgba(52, 58, 64, 0.7);
+	font-family: segoe UI;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.banner_title {
+
+	font-size: 50px;
+	margin-bottom: 15px;
+
+
+}
+
+.banner_desc {
+	margin-bottom: 30px;
+	text-align: justify;
+}
+.collection_heading{
+	margin-left: 43%;
+
+}
+.gallery_heading{
+	margin-left: 40%;
+}
+.cp{
+	max-width: 540px; 
+  margin-left: 20px;
+  
+}
+
+.padd {
+	padding: 50px;
+	/* background-color: red; */
+}
+.bs{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.banner_btn {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	font-family: segoe ui;
+	border: 3px solid white;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.banner_btn:hover {
+	background-color: white;
+	color: rgba(16, 128, 234, 1);
+}
+
+
+.about {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	/* background-color: gray; */
+	display: flex;
+	flex-direction: column;
+	font-family: segoe UI;
+	align-items: center;
+}
+
+.about_cont {
+	margin-top: 30px;
+	/* background-color: red; */
+	line-height: 30px;
+	display: inline;
+}
+
+.start_text {
+	font-size: 40px;
+	font-weight: bold;
+	color: gray;
+}
+
+
+/* css for galley  */
+.portfolio {
+	/* padding-top: 50px; */
+	/* padding-bottom: 50px; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #e4e4e4;
+	font-family: segoe UI;
+}
+
+.portfolio_cont{
+	width: 100%;
+	flex-wrap: wrap;
+	/* margin-top: 30px; */
+}
+
+.project {
+	width: 25%;
+	height: 400px;
+	background-color: red;
+	display: flex;
+	overflow: hidden;
+}
+
+.project_1 {
+	background-image: url('./Media/portraits_1.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_2 {
+	background-image: url('./Media/IMG_20190627_185709_233.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_3 {
+	background-image: url('./Media/abstract1_1.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_4 {
+	background-image: url('./Media/nature1_1.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_5 {
+	background-image: url('./Media/old style_1.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_6 {
+	background-size: cover;
+	background-image: url('./Media/pop_culture_1.jpg');
+	align-items: flex-end;
+}
+
+.project_7 {
+	background-image: url('./Media/wildlife_1.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_8 {
+	background-image: url('./Media/village_1.jpg');
+	background-size: cover;
+	align-items: flex-end;
+}
+
+.project_title {
+	color: white;
+	width: 100%;
+	height: 60px;
+	text-indent: 30px;
+	line-height: 200px;
+	background-color: rgba(52, 58, 64, 0.5);
+	cursor: pointer;
+	transition: .4s;
+}
+
+
+.project_title:hover {
+	height: 400px;
+}
+
+
+
+ul {
+	margin-top: 40px;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 10px;
+	color: white;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.banner_text {
+	margin-top: 100px;
+	/*background-color: inherit;*/
+	height: 200px;
+	width: 100%;
+}
+.portfolio{
+	display: none;
+}
+
+.highlight {
+	display: none;
+}
+.logo {
+	height: 35px;
+	width: 40%;
+	/* background-color: yellow; */
+	font-size: 15px;
+	
+	line-height: 35px;
+}
+.cp{
+	
+  margin-right: 20px;
+}
+.collection_heading{
+	margin-left: 28%;
+
+}
+.banner_title {
+
+	font-size: 15px;
+
+}
+.banner_desc {
+	font-size: 10px;
+	}
+
+.banner_btn{
+font-size: 10px;
+width: 80%;
+height: 45px;
+}
+.gallery_heading{
+display: none;
+}
+}
+
