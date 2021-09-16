@@ -1,14 +1,12 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	scroll-behavior: smooth;
 }
 .cont {
 	width: 80%;
 	display: flex;
 
-}
-html {
-  scroll-behavior: smooth;
 }
 .card {
     padding: 2% 7%;
