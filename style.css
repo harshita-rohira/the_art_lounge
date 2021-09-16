@@ -7,6 +7,9 @@
 	display: flex;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 .card {
     padding: 2% 7%;
     color: #646771;
