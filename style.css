@@ -278,7 +278,7 @@ li {
 	color: white;
 }
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 768px) and (min-width: 378px)
 {
 	.banner_text {
 	margin-top: 100px;
@@ -328,3 +328,94 @@ display: none;
 }
 }
 
+@media only screen and (max-width: 378px) 
+
+{
+.logo {
+	height: 35px;
+	width: 50%;
+	/* background-color: yellow; */
+	font-size: 12px;
+	line-height: 35px;
+}
+.banner_text {
+	margin-top: 100px;
+	/*background-color: inherit;*/
+	height: 250px;
+	width: 100%;
+}
+.gallery_heading{
+display: none;
+}
+.banner_title {
+
+	font-size: 15px;
+
+}
+.banner_desc {
+	font-size: 10px;
+	}
+
+.banner_btn{
+font-size: 10px;
+width: 100%;
+height: 60px;
+}
+.cp{
+	
+  margin-right: 20px;
+}
+.collection_heading{
+	margin-left: 23%;
+
+}
+.portfolio{
+	display: none;
+}
+
+}
+@media only screen and (max-width: 1327px) and (min-width: 768px)
+{
+
+
+.banner_text {
+	margin-top: 100px;
+	/*background-color: inherit;*/
+	height: 250px;
+	width: 70%;
+}
+
+.logo {
+	height: 35px;
+	width: 50%;
+	/* background-color: yellow; */
+	font-size: 15px;
+	
+	line-height: 35px;
+}
+.cp{
+	margin-left: 80px;
+}
+.collection_heading{
+	margin-left: 35%;
+
+}
+.banner_title {
+
+	font-size: 15px;
+
+}
+.banner_desc {
+	font-size: 10px;
+	}
+
+.banner_btn{
+font-size: 10px;
+width: 80%;
+height: 45px;
+}
+.gallery_heading{
+	margin-left: 33%;
+}
+
+}
